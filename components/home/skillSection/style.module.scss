@@ -1,0 +1,64 @@
+.skill_section {
+  width: 75%;
+  margin: 10rem auto;
+  @media screen and (max-width: 720px) {
+    width: 90%;
+  }
+  .heading {
+    position: relative;
+    .title {
+      font-family: "Fira Code";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      margin-bottom: 24px;
+      color: #ffffff;
+      position: relative;
+      display: inline-block;
+      background-color: #282c33;
+    }
+    &::before {
+      @media screen and (max-width: 720px) {
+        display: none;
+      }
+      content: "";
+      width: 50%;
+      height: 1px;
+      position: absolute;
+      top: 22px;
+      left: 16%;
+      background-color: #c778dd;
+    }
+  }
+  .card_container {
+    margin-block: 2rem;
+    display: flex;
+    align-items: center;
+    width: 75%;
+    flex-wrap: wrap;
+    gap: 20px;
+    @media screen and (max-width: 720px) {
+      flex-direction: row;
+      margin-inline: auto;
+      width: 100%;
+    }
+  }
+  .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media screen and (max-width: 720px) {
+      display: block;
+    }
+    .side_img_box {
+      width: 50%;
+      @media screen and (max-width: 720px) {
+        width: 100%;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.card_container {
+  border: 1px solid #abb2bf;
+  color: #abb2bf;
+  box-sizing: border-box;
+  width: 300px;
+  height: auto;
+  @media screen and (max-width: 720px) {
+    width: 100%;
+   }
+  .main_title {
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 8px 20px;
+    border-bottom: 1px solid #abb2bf;
+    @media screen and (max-width: 720px) {
+      font-size: 20px;
+    }
+  }
+  .desc {
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 8px 20px;
+    span {
+      margin-right: 10px;
+      display: inline-block;
+    }
+  }
+}

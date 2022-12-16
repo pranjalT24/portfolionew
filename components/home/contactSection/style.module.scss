@@ -1,0 +1,86 @@
+.contact_section {
+  width: 75%;
+  margin: 10rem auto;
+  margin-top: 0;
+  @media screen and (max-width: 720px) {
+    width: 90%;
+  }
+  .heading {
+    position: relative;
+    .title {
+      font-family: "Fira Code";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      margin-bottom: 24px;
+      color: #ffffff;
+      position: relative;
+      display: inline-block;
+      background-color: #282c33;
+    }
+    &::before {
+      @media screen and (max-width: 720px) {
+        display: none;
+      }
+      content: "";
+      width: 50%;
+      height: 1px;
+      position: absolute;
+      top: 22px;
+      left: 20%;
+      background-color: #c778dd;
+    }
+  }
+  .body {
+    .box {
+      display: inline-block;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      border: 1px solid #abb2bf;
+      padding: 10px 20px;
+      color: #abb2bf;
+      font-size: 16px;
+      @media screen and (max-width: 720px) {
+        display: block;
+        margin-right: 0;
+      }
+      cursor: pointer;
+      .title {
+        color: #ffffff;
+        margin-bottom: 20px;
+      }
+      .desc {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 720px) {
+      display: block;
+    }
+    .context {
+      width: 50%;
+      color: #abb2bf;
+      font-weight: 400;
+      @media screen and (max-width: 720px) {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+    .box_container {
+      width: 40%;
+      @media screen and (max-width: 720px) {
+        width: 100%;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}

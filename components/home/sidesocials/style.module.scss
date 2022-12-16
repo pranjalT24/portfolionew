@@ -1,0 +1,28 @@
+.side_nav_link {
+  position: fixed;
+  top: 0;
+  left: 10px;
+  @media screen and (max-width: 720px) {
+    display: none;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .line {
+    width: 1px;
+    height: 200px;
+    background-color: #abb2bf;
+    opacity: 0.6;
+  }
+  .links {
+    font-size: 28px;
+    opacity: 0.6;
+    cursor: pointer;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.about_section {
+  width: 75%;
+  margin: 10rem auto;
+  @media screen and (max-width: 720px) {
+    width: 90%;
+   }
+  .heading {
+    position: relative;
+    .title {
+      font-family: "Fira Code";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      margin-bottom: 24px;
+      color: #ffffff;
+      position: relative;
+      display: inline-block;
+      background-color: #282c33;
+    }
+    &::before {
+        @media screen and (max-width: 720px) {
+            display: none;
+          }
+      content: "";
+      width: 50%;
+      height: 1px;
+      position: absolute;
+      top: 22px;
+      left: 20%;
+      background-color: #c778dd;
+    }
+  }
+  .body {
+    .context_container {
+      width: 60%;
+      @media screen and (max-width: 720px) {
+        width: 100%;
+       }
+      .desc {
+        margin-bottom: 2rem;
+        font-family: "Fira Code";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #abb2bf;
+      }
+    }
+  }
+}

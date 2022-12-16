@@ -1,0 +1,46 @@
+.footer {
+  border-top: 1px solid #abb2bf;
+  margin-top: 10rem;
+  .container {
+    width: 75%;
+    margin: 3rem auto;
+    @media screen and (max-width: 720px) {
+      width: 90%;
+    }
+    .context {
+      width: 50%;
+      @media screen and (max-width: 720px) {
+        width: 100%;
+      }
+      .heading {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 10px;
+        @media screen and (max-width: 720px) {
+          display: block;
+        }
+        .title {
+          font-weight: 700;
+          font-size: 24px;
+          @media screen and (max-width: 720px) {
+            margin-bottom: 20px;
+          }
+        }
+        .mail {
+          font-size: 16px;
+          color: #abb2bf;
+        }
+      }
+      .desc {
+        font-size: 16px;
+      }
+    }
+  
+  }
+  .copy_right {
+    text-align: center;
+    color: #abb2bf;
+    margin: 4rem auto;
+  }
+}

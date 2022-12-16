@@ -1,0 +1,46 @@
+.quote_container {
+  width: 55%;
+  margin: 15rem auto;
+  @media screen and (max-width: 720px) {
+    margin: 10rem auto;
+    width: 90%;
+  }
+  .quote {
+    text-align: center;
+    font-family: "Fira Code";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #ffffff;
+    padding: 32px;
+    border: 1px solid #abb2bf;
+    position: relative;
+    @media screen and (max-width: 720px) {
+      font-size: 16px;
+    }
+    .top {
+      position: absolute;
+      top: -15px;
+      left: 20px;
+    }
+    .bottom {
+      position: absolute;
+      bottom: -15px;
+      right: 20px;
+    }
+  }
+  .author {
+    font-family: "Fira Code";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+    padding: 16px;
+    width: fit-content;
+    border: 1px solid #abb2bf;
+    margin-left: auto;
+    @media screen and (max-width: 720px) {
+      font-size: 16px;
+    }
+  }
+}
