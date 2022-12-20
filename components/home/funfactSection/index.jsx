@@ -3,8 +3,9 @@ import style from "./style.module.scss";
 const FunFactSection = () => {
   const factData = [
     "I like winter more than summer",
-    "I like Pizza",
+    "I like Chicken",
     "I like to play Video Games",
+    "I like to learn about Technologies",
   ];
   return (
     <section className={style.fun_fact_section}>

@@ -1,9 +1,8 @@
 .about_section {
   width: 75%;
-  margin: 10rem auto;
+  margin: 5rem auto;
   @media screen and (max-width: 720px) {
     width: 90%;
-    margin-top: 4rem;
   }
   .heading {
     position: relative;
@@ -44,7 +43,44 @@
         font-weight: 400;
         font-size: 16px;
         color: #abb2bf;
+        line-height: 28px;
       }
     }
+    .img_box {
+      width: 500px;
+      margin-bottom: 2rem;
+      img {
+        max-width: 100%;
+        height: auto;
+        box-shadow: 0 0 4px black;
+        border-radius: 5px;
+      }
+    }
+    .tech_stack {
+      font-size: 24px;
+      font-weight: 600;
+    }
+    .social_media {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin: 20px 0;
+      .icon {
+        font-size: 34px;
+        line-height: 0;
+        opacity: 0.6;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+.under_construction {
+  font-size: 28px;
+  display: flex;
+  gap: 20px;
+  .icon {
+    font-size: 34px;
   }
 }

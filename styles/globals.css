@@ -18,6 +18,9 @@ a {
   background: #282c33;
 }
 .highlight {
-
   color: #c778dd;
+}
+
+br {
+  margin: 20px !important;
 }

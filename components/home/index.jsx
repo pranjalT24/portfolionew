@@ -19,7 +19,7 @@ const HomeComponent = () => {
         <div className={style.author}>- Dr. Who</div>
       </div>
       <ProjectSection />
-      {/* <SkillSection /> */}
+      <SkillSection />
       <AboutSection />
       <FunFactSection />
       <ContactSection />

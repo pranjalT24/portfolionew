@@ -7,6 +7,10 @@
   }
   .heading {
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     .title {
       font-family: "Fira Code";
       font-style: normal;
@@ -28,6 +32,15 @@
       background-color: #c778dd;
       @media screen and (max-width: 720px) {
         display: none;
+      }
+    }
+    .view_all_btn {
+      font-size: 18px;
+      line-height: 0;
+      margin-bottom: 24px;
+      cursor: pointer;
+      &:hover {
+        color: #c778dd;
       }
     }
   }
