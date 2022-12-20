@@ -10,7 +10,10 @@ const ProjectSection = () => {
         <div className={style.title}>
           <span className="highlight">#</span>projects{" "}
         </div>
-        <div className={style.view_all_btn}>View all</div>
+        <Link href={"/project"}>
+          {" "}
+          <div className={style.view_all_btn}>View all</div>
+        </Link>
       </div>
       <div className={style.card_container}>
         {projectData.map((val, ind) => {
