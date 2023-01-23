@@ -6,6 +6,8 @@ import SkillSection from "./skillSection";
 import AboutSection from "./aboutSection";
 import FunFactSection from "./funfactSection";
 import ContactSection from "./contactSection";
+
+import BlogsSection from "./blogs";
 const HomeComponent = () => {
   return (
     <>
@@ -22,6 +24,7 @@ const HomeComponent = () => {
       <SkillSection />
       <AboutSection />
       <FunFactSection />
+      <BlogsSection />
       <ContactSection />
     </>
   );

@@ -44,14 +44,14 @@ export const projectData = [
     live: "https://covidresource-624e8.firebaseapp.com/",
     github: "https://github.com/pranjalT24/covidresource",
   },
-  {
-    name: "JUST CHAT",
-    img: "https://pranjaltiwari.netlify.app/static/media/justchat.cd7576fe293149fb4ab8.png",
-    desc: "<p>A web based chat application where multiple user can join the chat room and communicate with each other with messages</p> <p> <b>WebSocket</b> WebSocket protocol is used for the communication between two or more user in the web application</p> <p>Website is build on <b> ReactJs </b> with the use of <b>BootStrap</b> and <b> Socket.IO </b> </p>",
-    stack: "React Express Socket.io Bootstrap",
-    live: "https://justchatappbypranjal.netlify.app/",
-    github: "https://github.com/pranjalT24/justchatapp",
-  },
+  // {
+  //   name: "JUST CHAT",
+  //   img: "https://pranjaltiwari.netlify.app/static/media/justchat.cd7576fe293149fb4ab8.png",
+  //   desc: "<p>A web based chat application where multiple user can join the chat room and communicate with each other with messages</p> <p> <b>WebSocket</b> WebSocket protocol is used for the communication between two or more user in the web application</p> <p>Website is build on <b> ReactJs </b> with the use of <b>BootStrap</b> and <b> Socket.IO </b> </p>",
+  //   stack: "React Express Socket.io Bootstrap",
+  //   live: "https://justchatappbypranjal.netlify.app/",
+  //   github: "https://github.com/pranjalT24/justchatapp",
+  // },
   {
     name: "NoTODO",
     img: "/images/notodo.png",
@@ -73,7 +73,7 @@ export const projectData = [
     img: "/images/neurastats.png",
     desc: "<p>This Website is a product part of the company which I built from scratch during the internship period in the company. I have implemented basic SVG Animation in the website and integrated some <b>Backend API</b>.</p>",
     stack: "React Bootstrap Scss",
-    live: "https://neurastats.com/home",
+    live: "https://neurastats.com",
     github: "",
   },
   {
@@ -89,7 +89,7 @@ export const projectData = [
     img: "/images/savemeds.png",
     desc: "Work Under Progess",
     stack: "React Ant-Design Firebase",
-    live: "https://savemedstest.netlify.app/home",
+    live: "https://savemedstest.netlify.app",
     github: "",
   },
   {
@@ -97,7 +97,7 @@ export const projectData = [
     img: "/images/holidays.png",
     desc: "",
     stack: "HTML CSS JAVASCRIPT",
-    live: "https://holidayhack.netlify.app/",
+    live: "https://holidayhack.netlify.app",
     github: "",
   },
 ];
